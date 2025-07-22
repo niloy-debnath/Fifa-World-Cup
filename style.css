@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------Shared Styles-------- */
+
+.fixed-margin {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #dd0000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 30px;
+}
+
+/*----- Banner-------*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 60px;
+  padding: 20px 20px 0 20px;
+  padding-left: 100px;
+}
+
+.banner-left {
+  color: white;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.banner-description {
+  width: 506px;
+}
+
+.banner img {
+  display: block;
+  /* height: 100%; */
+  padding: none;
+}
+
+.banner button {
+  margin-top: 20px;
+}
